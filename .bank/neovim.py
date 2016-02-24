@@ -10,3 +10,7 @@ class Package(PackageBase):
         self.name = "NeoVIM"
         self.package_name = "neovim"
         self.requires = []
+
+    def check_system_requirements(self):
+        # For now, this is a no-op
+        return True
