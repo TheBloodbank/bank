@@ -7,4 +7,6 @@ from vamp.package import PackageBase
 class Package(PackageBase):
 
     def __init__(self):
-        pass
+        self.name = "NeoVIM"
+        self.package_name = "neovim"
+        self.requires = []
